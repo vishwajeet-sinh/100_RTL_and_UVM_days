@@ -1,0 +1,66 @@
+$date
+	Wed Aug  9 05:47:51 2023
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 8e28f25f3a211105 $end
+
+
+$scope module mux4_1_tb $end
+$var reg 1 ! I0 $end
+$var reg 1 " I1 $end
+$var reg 1 # I2 $end
+$var reg 1 $ I3 $end
+$var reg 2 % sel [1:0] $end
+$var reg 1 & out $end
+
+$scope module dut $end
+$var reg 1 ! I0 $end
+$var reg 1 " I1 $end
+$var reg 1 # I2 $end
+$var reg 1 $ I3 $end
+$var reg 2 % sel [1:0] $end
+$var reg 1 & out $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+x!
+x"
+x#
+x$
+x&
+bxx %
+$end
+#5
+0!
+0"
+0#
+0$
+b00 %
+0&
+#10
+1"
+b01 %
+1&
+#15
+0"
+1#
+b10 %
+1&
+#20
+0#
+1$
+b11 %
+1&
