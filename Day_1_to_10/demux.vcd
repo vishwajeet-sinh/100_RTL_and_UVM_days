@@ -1,0 +1,70 @@
+$date
+	Thu Aug 10 23:10:42 2023
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 8a791847e2b9c1c4 $end
+
+
+$scope module demux1_4_tb $end
+$var reg 1 ! in $end
+$var reg 1 " out1 $end
+$var reg 1 # out2 $end
+$var reg 1 $ out3 $end
+$var reg 1 % out0 $end
+$var reg 2 & sel [1:0] $end
+
+$scope module dut $end
+$var wire 1 ! in $end
+$var wire 2 ' sel [1:0] $end
+$var reg 1 % out0 $end
+$var reg 1 # out2 $end
+$var reg 1 $ out3 $end
+$var reg 1 " out1 $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+x!
+x%
+x"
+x#
+x$
+bxx '
+bxx &
+$end
+#5
+1!
+#10
+b00 &
+b00 '
+1%
+0"
+0#
+0$
+#15
+b01 &
+b01 '
+0%
+1"
+#20
+b10 &
+b10 '
+0"
+1#
+#25
+b11 &
+b11 '
+0#
+1$
