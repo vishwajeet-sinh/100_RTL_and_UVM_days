@@ -1,0 +1,38 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS Linux release 7.9.2009 (Core)' is not supported on 
+  'x86_64' officially, assuming linux compatibility by default. Set 
+  VCS_ARCH_OVERRIDE to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '3.10.0-1160.92.1.el7.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Fri Aug 11 00:08:53 2023
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Aug 11 00:08 2023
+                   0 when sel is xx and i is x output is xxxx
+                   5 when sel is xx and i is 1 output is xxxx
+                  10 when sel is 00 and i is 1 output is 0001
+                  15 when sel is 01 and i is 1 output is 0010
+                  20 when sel is 10 and i is 1 output is 0100
+                  25 when sel is 11 and i is 1 output is 1000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 25
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Fri Aug 11 00:08:53 2023
