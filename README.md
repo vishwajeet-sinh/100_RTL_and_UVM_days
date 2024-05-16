@@ -1,7 +1,7 @@
-# 100_RTL_days
+# 100_RTL_and_UVM_days
 Day 1-10 : -------
 Days     :  Topic
-1         :
+1         : Simple AND Gate Verification
 2         :
 3         :
 4         :
