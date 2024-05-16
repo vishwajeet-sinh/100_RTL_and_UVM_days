@@ -1,7 +1,9 @@
 # 100_RTL_and_UVM_days
-Day 1-10 : -------
-Days     :  Topic
+Day 1-10  : -------
+Days      :  Topic
 1         : Simple AND Gate Verification
+            Technology- UVM, SV
+            Architecture- UVM
 2         :
 3         :
 4         :
